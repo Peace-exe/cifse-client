@@ -19,7 +19,7 @@ export default function AboutSection() {
           />
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <Badge variant="outline" className="w-fit border-red-200 text-red-700">
+              <Badge variant="outline" className="w-fit border-red-200 text-red-700 rounded-full">
                 
                 About Us
               </Badge>

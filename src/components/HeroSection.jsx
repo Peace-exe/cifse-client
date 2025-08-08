@@ -5,7 +5,7 @@ import HeroSlideshow from "./Slideshow"
 
 const HeroSection = () => {
   return (
-    <section id="home" className="w-full min-h-screen relative overflow-hidden ">
+    <section id="home" className="w-full min-h-screen relative overflow-hidden shadow-xl">
       {/* 🔥 Background Gradient */}
       <div
         className="absolute inset-0 z-0"
@@ -23,7 +23,7 @@ const HeroSection = () => {
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <Badge variant="outline" className="w-fit border-red-200 text-red-700">
+              <Badge variant="outline" className="w-fit border-red-200 text-red-700 rounded-full">
                 <Flame className="w-3 h-3 mr-1" />
                 Accredited Programs
               </Badge>
