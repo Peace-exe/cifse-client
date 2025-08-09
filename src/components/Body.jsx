@@ -4,6 +4,7 @@ import AboutSection from "./AboutUs";
 import Courses from "./Courses";
 import WhyChooseUs from "./WhyChooseUs";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Body = ()=>{
     return <div className="flex flex-col min-h-screen">
@@ -16,7 +17,7 @@ const Body = ()=>{
         <Contact/>
         
     </div>
-    
+    <Footer/>
     </div>
 }
 
