@@ -3,34 +3,35 @@ import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight,Play,Pause } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+
 const slides = [
   {
     id: 1,
-    image: "/placeholder.svg?height=400&width=600&text=Fire+Safety+Training+Lab",
-    alt: "Students practicing fire safety techniques in modern laboratory",
-    title: "State-of-the-Art Training Facilities",
-  },
-  {
-    id: 2,
-    image: "/placeholder.svg?height=400&width=600&text=Emergency+Response+Simulation",
-    alt: "Emergency response simulation training session",
+    image: "/images/img1.jpg",
+    alt: "SEmergency response simulation training session",
     title: "Real-World Emergency Simulations",
   },
   {
+    id: 2,
+    image:  "/images/img2.jpg",
+    alt: "Emergency response simulation training session",
+    title: "Where Theory meets Practice",
+  },
+  {
     id: 3,
-    image: "/placeholder.svg?height=400&width=600&text=Fire+Engineering+Students",
+    image: "/images/img3.jpg",
     alt: "Fire engineering students in classroom discussion",
     title: "Expert Faculty & Interactive Learning",
   },
   {
     id: 4,
-    image: "/placeholder.svg?height=400&width=600&text=Campus+Fire+Safety+Equipment",
+    image: "/images/img4.jpg",
     alt: "Modern fire safety equipment and technology",
-    title: "Advanced Fire Safety Technology",
+    title: "Hands-On Fire and Safety Mock Drills",
   },
   {
     id: 5,
-    image: "/placeholder.svg?height=400&width=600&text=Graduation+Ceremony+Fire+Safety",
+    image: "/images/img5.jpg",
     alt: "Fire safety engineering graduation ceremony",
     title: "Successful Alumni & Career Growth",
   },

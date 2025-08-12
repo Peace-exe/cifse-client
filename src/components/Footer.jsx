@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/cifse-logo-no-bg2.png";
+
 
 const Footer = ()=>{
     return <div className="w-full bg-[#fef9f7] relative">
@@ -25,7 +25,7 @@ const Footer = ()=>{
       <div className="space-y-4">
         <div className="flex items-center space-x-3">
           <img
-            src={logo}
+            src="/cifse-logo-no-bg2.png"
             alt="Central Institute of Fire and Safety Engineering Logo"
             className="h-28 w-auto max-h-20"
           />
@@ -34,7 +34,7 @@ const Footer = ()=>{
           </span>
         </div>
         <p className="text-sm text-gray-600 leading-relaxed">
-          Leading the way in fire and safety engineering education since 1995.
+          Leading the way in fire and safety engineering education since 2015.
           Building safer communities through quality education.
         </p>
       </div>

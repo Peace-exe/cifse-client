@@ -5,8 +5,12 @@
 :root {
   --font-sans: 'Inter', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 
 body {
   font-family: 'Inter', sans-serif;
 }
+

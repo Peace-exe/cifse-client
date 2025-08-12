@@ -5,6 +5,7 @@ import Courses from "./Courses";
 import WhyChooseUs from "./WhyChooseUs";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ApplyNow from "./ApplyNow";
 
 const Body = ()=>{
     return <div className="flex flex-col min-h-screen">
@@ -14,6 +15,7 @@ const Body = ()=>{
         <AboutSection/>
         <Courses/>
         <WhyChooseUs/>
+        <ApplyNow/>
         <Contact/>
         
     </div>
