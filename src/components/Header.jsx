@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger,DialogClose } from "@/components/ui/dialog"
-import { MapPin, Phone, Mail,X } from "lucide-react";
+import { MapPin, Phone, Mail,X,FileDown } from "lucide-react";
 
 
 const Header = () => {
@@ -117,7 +117,8 @@ const Header = () => {
      <Button
       variant="default"
       className="bg-red-600 hover:bg-red-700 text-white"
-    >
+    > 
+      <FileDown/>
       Download Application Form
     </Button> 
     </a>

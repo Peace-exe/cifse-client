@@ -1,7 +1,7 @@
 import React from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Building, Users, Award, BookOpen, GraduationCap, Shield } from "lucide-react"
+import { Building, Users, Award, BookOpen, GraduationCap, Shield, FireExtinguisher } from "lucide-react"
 
 const WhyChooseUs =()=>{
     return(

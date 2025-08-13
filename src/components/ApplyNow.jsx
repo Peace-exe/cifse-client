@@ -10,6 +10,8 @@ import {
   MapPin,
   Mail,
   X,
+  MousePointerClick,
+  FileDown
 } from "lucide-react";
 import {
   Dialog,
@@ -90,7 +92,7 @@ export default function HeroSection() {
                         size="lg"
                         className="bg-red-600 hover:bg-red-700 text-white"
                       >
-                        <GraduationCap/>
+                        <MousePointerClick/>
                         Apply Now
                       </Button>
                     </DialogTrigger>
@@ -153,7 +155,8 @@ export default function HeroSection() {
                         <Button
                           variant="default"
                           className="bg-red-600 hover:bg-red-700 text-white"
-                        >
+                        > 
+                          <FileDown/>
                           Download Application Form
                         </Button>
                       </a>
